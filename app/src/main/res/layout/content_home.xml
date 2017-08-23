@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/side_nav_bar"
+    android:orientation="vertical"
+    tools:context="com.example.android1.androidzip.HomeActivity"
+    tools:showIn="@layout/app_bar_home">
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="?actionBarSize"
+        android:fontFamily="sans-serif"
+        android:padding="15dp"
+        android:text="@string/selected_item"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+</LinearLayout>

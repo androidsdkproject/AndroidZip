@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/side_nav_bar"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".Dropbox.DropboxActivity">
+
+    <Button
+        android:id="@+id/dropbox_login"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:layout_marginLeft="80sp"
+        android:layout_marginRight="80sp"
+        android:layout_marginTop="10sp"
+        android:background="@drawable/roundshapebtn"
+        android:fontFamily="sans-serif"
+        android:padding="10dp"
+        android:text="Dropbox Login"
+        android:textAllCaps="false"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/upload_file"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:layout_marginLeft="80sp"
+        android:layout_marginRight="80sp"
+        android:layout_marginTop="10sp"
+        android:background="@drawable/roundshapebtn"
+        android:fontFamily="sans-serif"
+        android:padding="10dp"
+        android:text="Upload Files"
+        android:textAllCaps="false"
+        android:textColor="#000000" />
+
+
+    <Button
+        android:id="@+id/list_files"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:layout_marginLeft="80sp"
+        android:layout_marginRight="80sp"
+        android:layout_marginTop="10sp"
+        android:background="@drawable/roundshapebtn"
+        android:fontFamily="sans-serif"
+        android:padding="10dp"
+        android:text="List files"
+        android:textAllCaps="false"
+        android:textColor="#000000" />
+
+    <ListView
+        android:layout_marginTop="20dp"
+        android:padding="20dp"
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+         />
+</LinearLayout>

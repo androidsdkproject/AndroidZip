@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">AndroidZip</string>
+    <string name="instruction">Zipping and Unzipping!</string>
+    <string name="selected_item">Selected Item</string>
+    <string name="select_file">Choose File</string>
+    <string name="click_here_to_zip">Zip</string>
+    <string name="click_here_to_unzip">Unzip</string>
+    <string name="share">Share</string>
+    <string name="clear">Clear</string>
+    <string name="exit">Exit</string>
+    <string name="dropbox">Dropbox</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>
